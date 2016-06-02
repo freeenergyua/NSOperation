@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSOperationQueue* queque;
+
+
+- (IBAction)pressButton:(UIButton *)sender;
+- (IBAction)pressButtonSecond:(UIButton *)sender;
+- (IBAction)pressButtonThird:(UIButton *)sender;
 
 @end
 

@@ -13,6 +13,11 @@
 		C0630A671CFC14070056A7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0630A651CFC14070056A7DD /* Main.storyboard */; };
 		C0630A691CFC14070056A7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0630A681CFC14070056A7DD /* Assets.xcassets */; };
 		C0630A6C1CFC14070056A7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0630A6A1CFC14070056A7DD /* LaunchScreen.storyboard */; };
+		C0630A7B1CFC2D510056A7DD /* AGDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0630A7A1CFC2D510056A7DD /* AGDownloadOperation.m */; };
+		C0630A7E1CFC2E380056A7DD /* NSOperationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C0630A7D1CFC2E380056A7DD /* NSOperationStack.m */; };
+		C0E352AD1CFFFF330035900D /* AGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E352AC1CFFFF330035900D /* AGTableViewController.m */; };
+		C0E352B01D0002050035900D /* AGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E352AF1D0002050035900D /* AGTableViewCell.m */; };
+		C0E37D0B1CFF4B2000D4D0BB /* AGAnimationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E37D0A1CFF4B2000D4D0BB /* AGAnimationOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		C0630A681CFC14070056A7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0630A6B1CFC14070056A7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0630A6D1CFC14070056A7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0630A791CFC2D510056A7DD /* AGDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDownloadOperation.h; sourceTree = "<group>"; };
+		C0630A7A1CFC2D510056A7DD /* AGDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDownloadOperation.m; sourceTree = "<group>"; };
+		C0630A7C1CFC2E380056A7DD /* NSOperationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationStack.h; sourceTree = "<group>"; };
+		C0630A7D1CFC2E380056A7DD /* NSOperationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationStack.m; sourceTree = "<group>"; };
+		C0E352AB1CFFFF330035900D /* AGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTableViewController.h; sourceTree = "<group>"; };
+		C0E352AC1CFFFF330035900D /* AGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTableViewController.m; sourceTree = "<group>"; };
+		C0E352AE1D0002050035900D /* AGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTableViewCell.h; sourceTree = "<group>"; };
+		C0E352AF1D0002050035900D /* AGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTableViewCell.m; sourceTree = "<group>"; };
+		C0E37D091CFF4B2000D4D0BB /* AGAnimationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAnimationOperation.h; sourceTree = "<group>"; };
+		C0E37D0A1CFF4B2000D4D0BB /* AGAnimationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAnimationOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +77,21 @@
 				C0630A601CFC14070056A7DD /* AppDelegate.m */,
 				C0630A621CFC14070056A7DD /* ViewController.h */,
 				C0630A631CFC14070056A7DD /* ViewController.m */,
+				C0E37D091CFF4B2000D4D0BB /* AGAnimationOperation.h */,
+				C0E37D0A1CFF4B2000D4D0BB /* AGAnimationOperation.m */,
+				C0630A791CFC2D510056A7DD /* AGDownloadOperation.h */,
+				C0630A7A1CFC2D510056A7DD /* AGDownloadOperation.m */,
+				C0630A7C1CFC2E380056A7DD /* NSOperationStack.h */,
+				C0630A7D1CFC2E380056A7DD /* NSOperationStack.m */,
 				C0630A651CFC14070056A7DD /* Main.storyboard */,
 				C0630A681CFC14070056A7DD /* Assets.xcassets */,
 				C0630A6A1CFC14070056A7DD /* LaunchScreen.storyboard */,
 				C0630A6D1CFC14070056A7DD /* Info.plist */,
 				C0630A5C1CFC14070056A7DD /* Supporting Files */,
+				C0E352AB1CFFFF330035900D /* AGTableViewController.h */,
+				C0E352AC1CFFFF330035900D /* AGTableViewController.m */,
+				C0E352AE1D0002050035900D /* AGTableViewCell.h */,
+				C0E352AF1D0002050035900D /* AGTableViewCell.m */,
 			);
 			path = AGInvocationOperation;
 			sourceTree = "<group>";
@@ -153,6 +178,11 @@
 				C0630A641CFC14070056A7DD /* ViewController.m in Sources */,
 				C0630A611CFC14070056A7DD /* AppDelegate.m in Sources */,
 				C0630A5E1CFC14070056A7DD /* main.m in Sources */,
+				C0630A7B1CFC2D510056A7DD /* AGDownloadOperation.m in Sources */,
+				C0E352AD1CFFFF330035900D /* AGTableViewController.m in Sources */,
+				C0E37D0B1CFF4B2000D4D0BB /* AGAnimationOperation.m in Sources */,
+				C0630A7E1CFC2E380056A7DD /* NSOperationStack.m in Sources */,
+				C0E352B01D0002050035900D /* AGTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +331,7 @@
 				C0630A721CFC14070056A7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
